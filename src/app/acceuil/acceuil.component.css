@@ -1,0 +1,103 @@
+.sec1{
+  background-color: #11096e;
+  height: 605px;
+
+}
+
+.img1{
+  height: 90px;
+  width: 90px;
+  position: relative;
+  top: 5px;
+  left: 8px;
+}
+#admin{
+  color: white;
+  position:absolute;
+  top: 30px;
+  left: 115px;
+  font-size: 18px;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+#date{
+  color: white;
+  font-size: 18px;
+  font-family:sans-serif;
+  font-weight: bold;
+  position:absolute;
+  top: 27px;
+  right: 125px;
+}
+.img2{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 25px;
+  right: 40px;
+}
+.img3{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 145px;
+  left: 20px;
+}
+.chercherSession{
+  height: 28px;
+  width: 160px;
+  position: absolute;
+  top: 153px;
+  left: 62px;
+  text-align: left;
+  border: none;
+}
+.btn{
+  height: 55px;
+  width: 280px;
+  text-align: center;
+  background-color: #11096e;
+  text-align: left;
+  box-shadow: 0 2px #999;
+  border: none;
+}
+#btn1{
+  position: absolute;
+  top: 225px;
+  left: 10px;
+}
+#btn2{
+  position: absolute;
+  top: 282px;
+  left: 10px;
+}
+#btn3{
+  position: absolute;
+  top: 339px;
+  left: 10px;
+}
+#btn4{
+  position: absolute;
+  top: 396px;
+  left: 10px;
+}
+.img{
+  height: 40px;
+  width: 45px;
+}
+#txt{
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+  font-weight: bold;
+}
+section{
+  height: 523px;
+  width: 1080px;
+  position:absolute;
+  top: 90px;
+  right: 0px;
+  left: 290px;
+  background-color: white;
+}

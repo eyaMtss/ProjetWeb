@@ -5,16 +5,27 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ParticipantsComponent } from './Participants/participants/participants.component';
+import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from './app-routing/app-routing.module';
+import { AcceuilComponent } from './acceuil/acceuil.component';
+import { FormateursComponent } from './Formateurs/formateurs/formateurs.component';
+import { SessionsComponent } from './Sessions/sessions/sessions.component';
+import { DashboardComponent } from './Dashboard/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParticipantsComponent
+    ParticipantsComponent,
+    AcceuilComponent,
+    FormateursComponent,
+    SessionsComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

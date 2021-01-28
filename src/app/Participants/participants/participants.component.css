@@ -1,0 +1,47 @@
+.img1{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.img2{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  left: 110px;
+}
+.tabPart{
+  position: absolute;
+  top: 85px;
+  left: 40px;
+  right: 40px;
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 92%;
+}
+#liste{
+  background-color:#455eed;
+  height: 40px;
+  color:white;
+  text-align: center;
+}
+
+tr{
+  height: 60px;
+
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.img3{
+  height: 50px;
+  width: 50px;
+}
+.img4{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
