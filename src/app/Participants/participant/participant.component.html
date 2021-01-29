@@ -1,19 +1,19 @@
 <section>
   <img class="img1" src=".\assets\6.png">
   <nav>
-  <a routerLink="/formateur/ajout" routerLinkActive="active">
+  <a routerLink="/participant/ajout" routerLinkActive="active">
     <img class="img2" src=".\assets\7.png">
   </a>
   </nav>
   <table class="tabPart">
     <tr id="liste">
       <th colspan="2" >
-        Liste des formateurs
+        Liste des participants
       </th>
     </tr>
-    <tr *ngFor="let item of FormateurList">
+    <tr *ngFor="let item of ParticipantList">
       <td colspan="1">
-        {{item.nom}} , {{item.prenom}} , {{item.adresse}} , {{item.email}} , {{item.domaineExpertise}}
+        {{item.nom}} , {{item.prenom}} , {{item.adresse}} , {{item.email}} , {{item.societe}} , {{item.poste}}
       </td>
       <td colspan="1">
         <img class="img3" src=".\assets\8.png">
@@ -22,3 +22,4 @@
     </tr>
   </table>
 </section>
+

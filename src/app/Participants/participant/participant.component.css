@@ -45,3 +45,8 @@ tr:nth-child(even) {
   width: 50px;
 }
 
+section{
+  height: 523px;
+  width: 1080px;
+  position:absolute;
+}

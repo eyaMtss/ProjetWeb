@@ -1,0 +1,42 @@
+.formAjout{
+  width: 350px;
+  margin: auto;
+  margin-top: 100px;
+}
+.txt{
+  height: 20px;
+  width: 200px;
+  box-shadow: 0 2px #999;
+  border: none;
+  position: absolute;
+  right: 400px;
+}
+legend {
+  font: 1rem 'Fira Sans', sans-serif;
+  color: purple;
+  padding: 4px 6px;
+}
+fieldset{
+  background-color: #eeeeee;
+}
+label{
+  position: absolute;
+  left: 395px;
+}
+.btn1{
+  position: absolute;
+  right: 400px;
+}
+.btn2{
+  position: absolute;
+  left: 550px;
+}
+button[type=submit] {
+  background-color: #45bf94;
+  border: 0;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+ }

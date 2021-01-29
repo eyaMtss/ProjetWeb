@@ -1,0 +1,19 @@
+<form class="formAjout" #formateurForm="ngForm"
+(ngSubmit)="onSubmit(formateurForm.value)">
+ <fieldset >
+   <legend><b>Ajouter un formateur</b></legend>
+   <label for="Nom">  Nom :</label>
+   <input type="textfield" placeholder="Nom" class="txt" ngModel required id="nom"><br><br>
+   <label for="Prenom">  Prénom :</label>
+   <input type="text" placeholder="Prénom" class="txt" ngModel required id="prenom"><br><br>
+   <label for="Adresse">  Adresse :</label>
+   <input type="text" placeholder="Adresse" class="txt" ngModel required id="adresse"><br><br>
+   <label for="Email">E-mail :</label>
+   <input type="text" placeholder="E-mail" class="txt" ngModel required id="email"><br><br>
+   <label for="Domaine d'expertise"> Société :</label>
+   <input type="text" placeholder="Domaine d'expertise" class="txt" ngModel required id="domaineExpertise"><br><br>
+   <input type="submit" value="Ajouter" class="btn1" [disabled]="!participantForm.form.valid" (click)="ajouter(Participant)">
+   <input type="button" value="Annuler" class="btn2">
+
+</fieldset>
+</form>
