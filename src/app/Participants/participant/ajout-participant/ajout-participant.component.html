@@ -3,17 +3,17 @@
   <fieldset >
     <legend><b>Ajouter un participant</b></legend>
     <label for="Nom">  Nom :</label>
-    <input type="textfield" placeholder="Nom" class="txt" ngModel required id="nom"><br><br>
+    <input type="textfield" placeholder="Nom" class="txt" ngModel required id="nom">
     <label for="Prenom">  Prénom :</label>
-    <input type="text" placeholder="Prénom" class="txt" ngModel required id="prenom"><br><br>
+    <input type="text" placeholder="Prénom" class="txt" ngModel required id="prenom">
     <label for="Adresse">  Adresse :</label>
-    <input type="text" placeholder="Adresse" class="txt" ngModel required id="adresse"><br><br>
+    <input type="text" placeholder="Adresse" class="txt" ngModel required id="adresse">
     <label for="Email">E-mail :</label>
-    <input type="text" placeholder="E-mail" class="txt" ngModel required id="email"><br><br>
+    <input type="text" placeholder="E-mail" class="txt" ngModel required id="email">
     <label for="Societe"> Société :</label>
-    <input type="text" placeholder="Société" class="txt" ngModel required id="societe"><br><br>
+    <input type="text" placeholder="Société" class="txt" ngModel required id="societe">
     <label for="Poste">Poste :</label>
-    <input type="text" placeholder="Poste" class="txt" ngModel required id="poste"><br><br>
+    <input type="text" placeholder="Poste" class="txt" ngModel required id="poste">
     <input type="submit" value="Ajouter" class="btn1" [disabled]="!participantForm.form.valid" (click)="ajouter(Participant)">
     <input type="button" value="Annuler" class="btn2">
 

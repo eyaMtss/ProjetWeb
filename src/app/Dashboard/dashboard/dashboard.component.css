@@ -1,0 +1,65 @@
+section{
+  height: 180px;
+  width: 335px;
+
+}
+img{
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.session{
+  background-color: orangered;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+.txt{
+  position: absolute;
+  margin: auto;
+  margin-top: 80px;
+  margin-right: 10px;
+  color: white;
+  font: 1rem 'Fira Sans', sans-serif;
+  font-size: 25px
+}
+.participant{
+  background-color: green;
+  position: absolute;
+  top: 20px;
+  left: 368px;
+}
+.formateur{
+  background-color: blueviolet;
+  position: absolute;
+  top: 20px;
+  left: 720px;
+}
+#liste{
+  background-color:#455eed;
+  height: 30px;
+  color:white;
+  text-align: center;
+}
+tr{
+  height: 30px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.tabSess{
+  position: absolute;
+  top: 235px;
+  left: 75px;
+  font-family: sans-serif;
+  width: 42%;
+}
+.tabFor{
+  position: absolute;
+  top: 255px;
+  right: 60px;
+  font-family: sans-serif;
+  width: 25%;
+}

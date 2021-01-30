@@ -23,3 +23,26 @@
   </table>
 </section>
 
+<section>
+  <form class="formAjout" #participantForm="ngForm"
+ (ngSubmit)="onSubmit(participantForm.value)">
+  <fieldset >
+    <legend><b>Ajouter un participant</b></legend>
+    <label for="Nom">  Nom :</label>
+    <input type="textfield" placeholder="Nom" class="txt" ngModel required id="nom">
+    <label for="Prenom">  Prénom :</label>
+    <input type="text" placeholder="Prénom" class="txt" ngModel required id="prenom">
+    <label for="Adresse">  Adresse :</label>
+    <input type="text" placeholder="Adresse" class="txt" ngModel required id="adresse">
+    <label for="Email">E-mail :</label>
+    <input type="text" placeholder="E-mail" class="txt" ngModel required id="email"><br><br>
+    <label for="Societe"> Société :</label>
+    <input type="text" placeholder="Société" class="txt" ngModel required id="societe">
+    <label for="Poste">Poste :</label>
+    <input type="text" placeholder="Poste" class="txt" ngModel required id="poste"><br>
+    <input type="submit" value="Ajouter" class="btn1" [disabled]="!participantForm.form.valid" (click)="ajouter(Participant)">
+    <input type="button" value="Annuler" class="btn2">
+
+</fieldset>
+</form>
+</section>
